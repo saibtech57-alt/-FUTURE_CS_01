@@ -1,0 +1,15 @@
+Target: demo.testfire.net
+
+Open Ports:
+80/tcp - HTTP
+443/tcp - HTTPS
+8080/tcp - HTTP Proxy
+
+Server:
+Apache-Coyote/1.1
+
+Additional Findings:
+- Server information disclosure
+- Multiple web services exposed
+
+Risk: Low

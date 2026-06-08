@@ -1,0 +1,38 @@
+Target Website: demo.testfire.net
+
+Finding 1
+Title: Missing Content Security Policy
+Risk: Medium
+Impact: Increased risk of Cross-Site Scripting (XSS).
+Recommendation: Implement Content-Security-Policy header.
+
+Finding 2
+Title: Missing X-Frame-Options
+Risk: Low
+Impact: Website may be vulnerable to clickjacking.
+Recommendation: Configure X-Frame-Options header.
+
+Finding 3
+Title: Missing X-Content-Type-Options
+Risk: Low
+Impact: Browser MIME type confusion may occur.
+Recommendation: Configure X-Content-Type-Options: nosniff.
+
+Finding 4
+Title: Missing Permissions-Policy
+Risk: Low
+Impact: Browser features are not restricted.
+Recommendation: Implement Permissions-Policy.
+
+Finding 5
+Title: Server Information Disclosure
+Risk: Low
+Impact: Server software details are exposed.
+Evidence: Apache-Coyote/1.1
+Recommendation: Hide server information.
+
+Finding 6
+Title: Open Network Services
+Risk: Low
+Impact: Ports 80, 443, and 8080 are exposed.
+Recommendation: Disable unnecessary services and monitor exposed ports.

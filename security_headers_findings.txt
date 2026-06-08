@@ -1,0 +1,15 @@
+Website: demo.testfire.net
+
+SecurityHeaders Grade: F
+
+Missing Headers:
+1. Content-Security-Policy
+2. X-Frame-Options
+3. X-Content-Type-Options
+4. Permissions-Policy
+
+Risk Levels:
+- CSP: Medium
+- X-Frame-Options: Low
+- X-Content-Type-Options: Low
+- Permissions-Policy: Low
